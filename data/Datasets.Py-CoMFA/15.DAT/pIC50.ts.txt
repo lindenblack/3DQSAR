@@ -1,0 +1,6 @@
+Mol_1e 6.04
+Mol_1n 6.30
+Mol_1r 6.53
+Mol_1x 7.04
+Mol_2h 6.78
+Mol_3b 7.16
