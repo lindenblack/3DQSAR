@@ -40,7 +40,7 @@ def augment_array(in_data):
                                        random_crop=False,
                                        p_el_per_sample=0.5,
                                        p_scale_per_sample=0.5,
-                                       p_rot_per_sample=0.5,
+                                       p_rot_per_sample=1,
                                        independent_scale_for_each_axis=False,
                                        p_rot_per_axis = 0.5,
                                        p_independent_scale_per_axis = 0.5)
