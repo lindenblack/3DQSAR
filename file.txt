@@ -1,0 +1,10 @@
+print('running')
+import type=mol2 file="C:\Users\Linden\GitHub\3DQSAR\data\DatasetsEdited\07.THERM\Data\zlpola.mol2" 
+
+box step=1.0
+
+calc_field type=VDW
+
+calc_field type=MM_ELE
+
+export type=OBJECT_FIELD file=therm format=XYZ 
