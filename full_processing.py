@@ -83,7 +83,7 @@ def generate_labels():
 
 def func():
     ds_num=0
-    for entry in os.scandir(r"C:\Users\Linden\GitHub\3DQSAR\data\EllenToRun"):
+    for entry in os.scandir(r"C:\Users\Linden\GitHub\3DQSAR\data\EllenRawData\sdf"):
         if (entry.path.endswith(".sdf")):
             
             file = open(r"C:\open3dtools\file.txt", "r")
